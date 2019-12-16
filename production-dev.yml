@@ -1,6 +1,6 @@
 server:
   port: 6011
-  version: Hoxton
+  version: HoxtonFF
 spring:
   application:
     name: production
