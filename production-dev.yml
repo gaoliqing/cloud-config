@@ -3,6 +3,20 @@ server:
 spring:
   application:
     name: production
+  rabbitmq:
+    host: 152.136.206.111
+    username: gaoliqing
+    password: gaoliqing4832
+  cloud:
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 eureka:
   instance:
     lease-expiration-duration-in-seconds: 90
