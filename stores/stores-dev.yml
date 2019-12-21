@@ -1,0 +1,20 @@
+server:
+  port: 6031
+spring:
+  application:
+    name: stores
+  zipkin:
+    base-url: http://152.136.206.111:9411               
+  sleuth:
+    sampler:
+      probability: 1
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:6001/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
