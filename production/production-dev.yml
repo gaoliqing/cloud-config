@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: production
+  zipkin:
+    base-url: http://152.136.206.111:9411
+  sleuth:
+    sampler:
+      probability: 1
   rabbitmq:
     host: 152.136.206.111
     username: gaoliqing
