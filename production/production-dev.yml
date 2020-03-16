@@ -11,6 +11,7 @@ spring:
       probability: 1
   rabbitmq:
     host: 152.136.206.111
+    port: 5672
     username: gaoliqing
     password: gaoliqing4832
   cloud:
